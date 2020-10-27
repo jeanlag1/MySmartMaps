@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <menu app:showAsAction="always" />
+    <item
+        android:title="Item"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/miSave"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="Save"
+        app:showAsAction="always" />
+    <item android:title="--- Choose Map Type ---" />
+    <item
+        android:id="@+id/typeNormal"
+        android:title="Normal" />
+    <item
+        android:id="@+id/typeSatelite"
+        android:title="Satelite" />
+    <item
+        android:id="@+id/typeHybrid"
+        android:title="Hybrid" />
+    <item
+        android:id="@+id/typeTerrain"
+        android:title="Terrain" />
+</menu>
